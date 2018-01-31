@@ -90,8 +90,12 @@ print (today)
 import csv
 
 destname = 'ColorOfTheDay.csv'
-destfile = open(destname, 'a')
+destfile = open(destname, 'w')
+mywriter = csv.writer(destfile)
+mywriter.writerow(["Date", "PantoneName", "PantoneID", "Hex#", "Word1", "Word2", "Word3"])
+destfile.close()
 
+destfile = open(destname, 'a')
 mywriter = csv.writer(destfile)
 mywriter.writerow([today, PantoneName, PantoneID, Hex, Word1, Word2, Word3])
 
