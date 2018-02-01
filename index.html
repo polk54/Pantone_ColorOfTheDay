@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Pantone COTD Archive</title>
-  </head>
+<head>
+	<title> Pantone COTD Archive </title>
+  	<meta charset="utf-8"/>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/> -->
+	  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<div class = "intro">
   <body>
-    <h1>Pantone Color of the Day Archive</h1>
-    <p>tColor info scraped from: https://www.pantone.com/colorstrology</p>
-      <div id='table-container'></div>
-        <script>
-        CsvToHtmlTable.init({
-        csv_path: 'ColorOfTheDay.csv',
-        element: 'table-container',
-        allow_download: true,
-        csv_options: {separator: '~', delimiter: '~'},
-        datatables_options: {"paging": true, "order": [[ 5, "desc" ]]}
-          });
-        </script>
-    <div class="w3-col l3 m6 w3-padding">
-    <div style="background-color:tomato;">Tomato</div>
-  </div>
-    
+    <h1 class="page-title" >Pantone Color of the Day Archive</h1>
+    <p class="page-description"> An archive of the <a href= "https://www.pantone.com/colorstrology"> Pantone Color of Day </a>
+      picks. Starting February 2018 </p>
   </body>
+</div>
+
+<div class="colors">
+  <!-- colors boxes will go here -->
+
+</div>
 </html>
