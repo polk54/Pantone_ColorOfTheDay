@@ -90,10 +90,11 @@ print (today)
 import csv
 
 destname = 'ColorOfTheDay.csv'
-destfile = open(destname, 'w')
-mywriter = csv.writer(destfile)
-mywriter.writerow(["Date", "PantoneName", "PantoneID", "Hex#", "Word1", "Word2", "Word3"])
-destfile.close()
+# This section is only to add the header to the .csv
+# destfile = open(destname, 'w')
+# mywriter = csv.writer(destfile)
+# mywriter.writerow(["Date", "PantoneName", "PantoneID", "Hex#", "Word1", "Word2", "Word3"])
+# destfile.close()
 
 destfile = open(destname, 'a')
 mywriter = csv.writer(destfile)
