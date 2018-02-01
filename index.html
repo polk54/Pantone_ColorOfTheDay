@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Pantone COTD Archive</title>
-</head>
-<body>
+  <head>
+    <title>Pantone COTD Archive</title>
+  </head>
+  <body>
 
-<h1>Pantone Color of the Day Archive</h1>
-<p>TColor info scraped from: https://www.pantone.com/colorstrology</p>
-
-</body>
+    <h1>Pantone Color of the Day Archive</h1>
+    <p>Color info scraped from: https://www.pantone.com/colorstrology</p>
+    <script>
+  CsvToHtmlTable.init({
+    csv_path: 'Pantone_ColorOfTheDay/ColorOfTheDay.csv', 
+    element: 'table-container', 
+    allow_download: true,
+    csv_options: {separator: ',', delimiter: '"'},
+    datatables_options: {"paging": false}
+      });
+    </script>
+       
+  </body>
 </html>
