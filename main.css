@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
@@ -17,14 +19,22 @@ body {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
 }
 
 .color-item {
   margin: 20px;
-  border: 5px solid #FFF;
+  border: 1px solid #FFF;
+}
+
+#text {
+  font-family: "Lato", url("https://fonts.google.com/specimen/Lato?selection.family=Lato");
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 200;
+  word-wrap: break-word;
 }
 
 .color-item a:active {
 	top: 2px;
-} 
+}
