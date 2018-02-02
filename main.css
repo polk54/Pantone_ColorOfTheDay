@@ -27,10 +27,16 @@ body {
   border: 1px solid #FFF;
 }
 
-#text {
+.date {
   font-family: "Lato", url("https://fonts.google.com/specimen/Lato?selection.family=Lato");
-  color: #ffffff;
-  font-size: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  word-wrap: break-word;
+}
+
+.text {
+  font-family: "Lato", url("https://fonts.google.com/specimen/Lato?selection.family=Lato");
+  font-size: 15px;
   font-weight: 200;
   word-wrap: break-word;
 }
