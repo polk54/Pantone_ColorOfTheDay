@@ -6,9 +6,10 @@
 # The purpose of this file is to scrape Pantone's Color of the Day website and create an archive of all the colors they've picked.
 # https://www.pantone.com/colorstrology
 #
-# With this file I will get two outputs:
+# When run, this code will output three files:
 #     1. Colors.csv
-#     2. index.html
+#     2. newcolor.html
+#     3. index.html
 
 # ## Section 1
 # Getting COTD info from Pantone's Color of the Day website and putting it into a csv.
