@@ -6,7 +6,7 @@ The purpose of this project is to create an archive of all of Pantone's "Color o
 The DailyScraper_BS.py file does the following:
   1. Scrapes the Color of the Day website to get the Color name, Pantone ID, Hex code, and 3 describing words. 
   2. Appends this info to a .csv
-  3. Writes this info into a new html section and adds it to index.html
+  3. Uses that info to write a new html div section and add it to index.html
 
 The website is now set up: https://polk54.github.io/Pantone_ColorOfTheDay/
 
