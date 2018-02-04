@@ -8,7 +8,7 @@
 #
 # With this file I will get two outputs:
 #     1. Colors.csv
-#     2. newindex.html
+#     2. index.html
 
 # ## Section 1
 # Getting COTD info from Pantone's Color of the Day website and putting it into a csv.
