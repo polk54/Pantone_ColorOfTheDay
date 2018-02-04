@@ -7,6 +7,7 @@ The DailyScraper_BS.py file does the following:
   1. Scrapes the Color of the Day website to get the Color name, Pantone ID, Hex code, and 3 describing words. 
   2. Appends this info to a .csv
   3. Uses that info to write a new html div section and add it to index.html
+     (This feature was added 2/4/18, so any html text previous to that date might be formatted a bit different)
 
 The website is now set up: https://polk54.github.io/Pantone_ColorOfTheDay/
 
