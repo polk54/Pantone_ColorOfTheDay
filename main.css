@@ -20,10 +20,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
+  padding: 10px;
 }
 
 .color-item {
-  margin: 10px;
+  margin: 20px;
   border: 1px solid #FFF;
   border-style: solid;
   border-color: #d3d3d3;
