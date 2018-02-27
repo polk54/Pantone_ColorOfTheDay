@@ -25,6 +25,7 @@ body {
 .color-item {
   margin: 20px;
   border: 1px solid #FFF;
+  font-family: "helvmd", Helvetica, sans-serif;
 }
 
 .date {
