@@ -28,7 +28,7 @@ body {
 }
 
 .date {
-  font-family: "Lato", url("https://fonts.google.com/specimen/Lato?selection.family=Lato");
+  font-family: "helvmd", Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 200;
   word-wrap: break-word;
