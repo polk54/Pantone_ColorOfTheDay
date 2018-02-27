@@ -25,6 +25,8 @@ body {
 .color-item {
   margin: 20px;
   border: 1px solid #FFF;
+  border-style: solid;
+  border-color: #d3d3d3;
 }
 
 .date {
