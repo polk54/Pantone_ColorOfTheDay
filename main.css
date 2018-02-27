@@ -25,7 +25,6 @@ body {
 .color-item {
   margin: 20px;
   border: 1px solid #FFF;
-  font-family: "helvmd", Helvetica, sans-serif;
 }
 
 .date {
@@ -36,7 +35,7 @@ body {
 }
 
 .text {
-  font-family: "Lato", url("https://fonts.google.com/specimen/Lato?selection.family=Lato");
+  font-family: "helvmd", Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 200;
   word-wrap: break-word;
