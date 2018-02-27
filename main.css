@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans'); /* From before when I wanted to use the font Lato */
-
 body {
-  font-family: "helvmd", Helvetica, sans-serif;
+  font-family: "helvmd", Helvetica, sans-serif; /* this is the same text as Pantone's color swatch cards
   margin: 0;
   padding: 30px;
 }
@@ -30,11 +28,12 @@ body {
 }
 
 .date {
-  font-family: "helvmd", Helvetica, sans-serif;
+  font-family: "helvmd", Helvetica, sans-serif; 
   font-size: 18px;
   font-weight: 200;
   word-wrap: break-word;
   padding-left: 10px;
+  font-weight: bold;
 }
 
 .text {
