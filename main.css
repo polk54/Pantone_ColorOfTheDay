@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-  padding: 10px;
+  padding: 20px;
 }
 
 .color-item {
@@ -28,7 +28,7 @@ body {
   border: 1px solid #FFF;
   border-style: solid;
   border-color: #d3d3d3;
-  padding: 10px;
+  padding: 20px;
 }
 
 .date {
@@ -36,7 +36,7 @@ body {
   font-size: 18px;
   font-weight: 200;
   word-wrap: break-word;
-  padding: 10px;
+  padding: 20px;
 }
 
 .text {
@@ -44,5 +44,5 @@ body {
   font-size: 15px;
   font-weight: 200;
   word-wrap: break-word;
-  padding: 10px;
+  padding: 20px;
 }
