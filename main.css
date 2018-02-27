@@ -27,6 +27,7 @@ body {
   border: 1px solid #FFF;
   border-style: solid;
   border-color: #d3d3d3;
+  border-spacing: 10px
 }
 
 .date {
