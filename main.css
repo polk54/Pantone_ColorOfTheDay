@@ -23,11 +23,11 @@ body {
 }
 
 .color-item {
-  margin: 20px;
+  margin: 10px;
   border: 1px solid #FFF;
   border-style: solid;
   border-color: #d3d3d3;
-  border-spacing: 10px
+  padding: 10px;
 }
 
 .date {
