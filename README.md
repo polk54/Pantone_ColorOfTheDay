@@ -1,7 +1,7 @@
 # Pantone Color Of The Day
 
 The purpose of this project is to create an archive of all of Pantone's "Color of the Day" colors
-Pantone site: https://www.pantone.com/colorstrology
+<br>Pantone site: https://www.pantone.com/colorstrology <br>
 My archive: https://polk54.github.io/Pantone_ColorOfTheDay/
 
 The *DailyScraper_BS_update.py* has a function that does the following:
