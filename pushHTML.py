@@ -2,11 +2,11 @@
 ## Using the package GitPython
 
 ### DEFINE FUNCTION:
-def push(repo_dir):
+def push():
     from git import Repo
     import os
 
-    #repo_dir = "Pantone_ColorOfTheDay"
+    repo_dir = "/Users/parulagarwal/Documents/Code/GitHub/Pantone_ColorOfTheDay"
     repo = Repo(repo_dir)
     file_list = [
         "index.html",
@@ -19,5 +19,4 @@ def push(repo_dir):
     origin.push()
 
 ## RUN FUNCTION:
-#repo_dir = "Pantone_ColorOfTheDay"
-#push(repo_dir)
+push()

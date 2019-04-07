@@ -8,8 +8,7 @@ from pushHTML import push
 
 # set parameters
 site = "https://www.pantone.com/colorstrology"
-repo_dir = "Pantone_ColorOfTheDay"
 
 # Run the two functions
 colorScrape(site)
-push(repo_dir)
+push()
