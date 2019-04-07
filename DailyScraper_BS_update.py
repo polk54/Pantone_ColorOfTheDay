@@ -197,4 +197,4 @@ def colorScrape(site):
         file.write(str(soup3))
 
 #### RUN FUNCTION
-colorScrape("https://www.pantone.com/colorstrology")
+#colorScrape("https://www.pantone.com/colorstrology")
