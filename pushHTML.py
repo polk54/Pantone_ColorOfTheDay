@@ -12,7 +12,7 @@ def push():
             "index.html",
             "Colors.csv"
         ]
-        commit_message = 'test3'
+        commit_message = 'Add new color'
         #repo.git.add(update=True)
         repo.index.add(file_list)
         repo.index.commit(commit_message)
