@@ -1,5 +1,5 @@
 ## This file will run:
-# 1. The pantine scraping function
+# 1. The pantone scraping function
 # 2. The push to GitHub repository function
 
 # Import files and functions
