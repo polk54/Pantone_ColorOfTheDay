@@ -6,20 +6,21 @@ def push():
     from git import Repo
     path = "/Users/parulagarwal/Documents/Code/GitHub/Pantone_ColorOfTheDay"
 
-    repo = Repo(path)
-    file_list = [
-        "index.html",
-        "Colors.csv"
-    ]
-    commit_message = 'test3'
-    #repo.git.add(update=True)
-    repo.index.add(file_list)
-    repo.index.commit(commit_message)
-    origin = repo.remote(name='origin')
-    origin.push()
-    print('Code push from script succeeded')
-    #except:
-        #print('Some error occured while pushing the code')
+    try:
+        repo = Repo(path)
+        file_list = [
+            "index.html",
+            "Colors.csv"
+        ]
+        commit_message = 'test3'
+        #repo.git.add(update=True)
+        repo.index.add(file_list)
+        repo.index.commit(commit_message)
+        origin = repo.remote(name='origin')
+        origin.push()
+        print('Code push from script succeeded')
+    except:
+        print('Some error occured while pushing the code')
 
 ## RUN FUNCTION:
 push()
