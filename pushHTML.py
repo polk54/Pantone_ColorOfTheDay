@@ -1,6 +1,5 @@
 ## This file will create a function that wiil upload the new index to GitHub when called
-## Using GitPython
-## Token: "1a0f23ef5faa3aa261b79aaaf27befec5f5e8fdc"
+## Using the package GitPython
 
 ### DEFINE FUNCTION:
 def push(repo_dir):
