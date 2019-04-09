@@ -164,7 +164,7 @@ def colorScrape():
     NewColorHTML
 
     #Saving the string as new HTML file
-    file = open("newcolor.html","w")
+    file = open("newcolor.html","w", encoding='utf8')
     file.write(NewColorHTML)
     file.close()
 
@@ -182,13 +182,13 @@ def colorScrape():
     #soup2 = BeautifulSoup(page_text)
 
     # Saving the COTD archive as a new html file
-    with open("cotd.html", "w") as file:
+    with open("cotd.html", "w", encoding='utf8') as file:
         file.write(str(soup2))
         file.close()
 
     # Opening the cotd and newcolor html files
-    soup3 = BeautifulSoup(open("cotd.html"), "html.parser")
-    soup4 = BeautifulSoup(open("newcolor.html"), "html.parser")
+    soup3 = BeautifulSoup(open("cotd.html", encoding='utf8'), "html.parser")
+    soup4 = BeautifulSoup(open("newcolor.html", encoding='utf8'), "html.parser")
 
     # Finding where the new color should go
     colorsection = soup3.find(class_="color-item")
@@ -197,8 +197,8 @@ def colorScrape():
     colorsection.insert_before(soup4)
 
     # Saving the file
-    with open("index.html", "w") as file:
+    with open("index.html", "w", encoding='utf8') as file:
         file.write(str(soup3))
 
 #### RUN FUNCTION
-colorScrape()
+#colorScrape()

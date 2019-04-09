@@ -7,9 +7,6 @@
 from DailyScraper_BS_update import colorScrape
 from pushHTML import push
 
-# set parameters
-site = "https://www.pantone.com/colorstrology"
-
 # Run the two functions
-colorScrape(site)
+colorScrape()
 push()
