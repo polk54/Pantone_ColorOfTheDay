@@ -15,9 +15,9 @@ The *pushHTML.py* has a function that does the following:
 
 The *DailyRun.py* file imports the previous 2 files/functions and runs them.
 
-Using Apple's Automator, I created a "Run Shell Script" bin/bash command (pass input: to stdin) <br>
-    * cd /Users/parulagarwal/Documents/Code/GitHub/Pantone_ColorOfTheDay
-    * /Users/parulagarwal/anaconda3/bin/python DailyRun.py
-    <br>
+Using Apple's Automator, I created a "Run Shell Script" bin/bash command (pass input: to stdin)
+- cd /Users/parulagarwal/Documents/Code/GitHub/Pantone_ColorOfTheDay
+- /Users/parulagarwal/anaconda3/bin/python DailyRun.py
+
 The second line specifies the proper installation of Python. Before I was running into an issue where the module "bs4" was not found.
 Then I created an recurring Apple calendar event where the alert opened the Automator file.
