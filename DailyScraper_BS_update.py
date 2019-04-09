@@ -1,3 +1,5 @@
+# encoding=utf8
+
 # # Python Code for Creating Color Archive
 #
 # The purpose of this file is to scrape Pantone's Color of the Day website and create an archive of all the colors they've picked.
