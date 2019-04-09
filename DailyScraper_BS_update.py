@@ -11,7 +11,7 @@
 #     3. index.html
 
 #### DEFINE FUNCTION
-def colorScrape(site):
+def colorScrape():
     # ## Section 1
     # Getting COTD info from Pantone's Color of the Day website and putting it into a csv.
 
@@ -20,7 +20,7 @@ def colorScrape(site):
     import os
 
     # Getting the url
-    url = requests.get(site)
+    url = requests.get("https://www.pantone.com/colorstrology")
     url
 
     # Getting the html of the website
@@ -178,6 +178,8 @@ def colorScrape(site):
     # Getting the URL for my COTD archive
     cotd_archive = requests.get("https://polk54.github.io/Pantone_ColorOfTheDay/")
     soup2 = BeautifulSoup(cotd_archive.content, "html.parser")
+    #page_text = soup2.text.encode('utf-8').decode('ascii', 'ignore')
+    #soup2 = BeautifulSoup(page_text)
 
     # Saving the COTD archive as a new html file
     with open("cotd.html", "w") as file:
@@ -199,4 +201,4 @@ def colorScrape(site):
         file.write(str(soup3))
 
 #### RUN FUNCTION
-#colorScrape("https://www.pantone.com/colorstrology")
+colorScrape()
