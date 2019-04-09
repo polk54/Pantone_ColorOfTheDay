@@ -1,3 +1,4 @@
+# encoding=utf8
 ## This file will create a function that wiil upload the new index to GitHub when called
 ## Using GitPython
 

@@ -1,3 +1,4 @@
+# encoding=utf8
 ## This file will run:
 # 1. The pantone scraping function
 # 2. The push to GitHub repository function
