@@ -3,7 +3,7 @@
 ** paused **
 
 The purpose of this project is to create an archive of all of Pantone's "Color of the Day" colors
-<br>Pantone site: https://www.pantone.com/colorstrology <br>
+<br>Pantone site: https://www.pantone.com/color-intelligence/color-education/colorstrology <br>
 My archive: https://polk54.github.io/Pantone_ColorOfTheDay/
 
 FILES:
