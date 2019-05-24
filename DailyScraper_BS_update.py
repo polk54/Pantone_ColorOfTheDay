@@ -20,7 +20,7 @@ def colorScrape():
     import os
 
     # Getting the url
-    url = requests.get("https://www.pantone.com/colorstrology")
+    url = requests.get("https://www.pantone.com/color-intelligence/color-education/colorstrology")
     url
 
     # Getting the html of the website
